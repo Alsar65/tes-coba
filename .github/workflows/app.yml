@@ -16,6 +16,7 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/Harchanel15/tes-coba/main/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://raw.githubusercontent.com/Harchanel15/tes-coba/main/wallpaper.bat -OutFile wallpaper.bat
         Invoke-WebRequest https://raw.githubusercontent.com/Harchanel15/tes-coba/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Harchanel15/tes-coba/main/loop.bat -OutFile push.bat
     - name: Mendownload Launcher.
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/Harchanel15/tes-coba/main/launcher/Node.js.lnk -OutFile Node.js.lnk
